@@ -30,9 +30,6 @@ Neither tool claims to solve the whole problem alone. That's deliberate — a to
 
 `soroban-budget-assert`'s first real milestone is measuring how much Soroban's local test-mode budget estimate diverges from real, network-verified cost (via `simulateTransaction` against testnet). That number doesn't exist publicly yet, as far as we've found. Until it's measured, cost thresholds in any tool in this initiative should be treated as directional, not precise.
 
-## Funding & Context
-
-This work is being developed as part of Drips Wave 7. The current sprint is explicitly scoped as research and architecture — mapping proposed tooling to Soroban's real metering and fee model — rather than shipping a finished product. Later phases build on whatever that research finds, not the other way around.
 
 ## Repositories
 
@@ -43,6 +40,3 @@ This work is being developed as part of Drips Wave 7. The current sprint is expl
 
 Each repo has its own contributing guide. If you're looking for where to start, check open issues on either repo above — this initiative is actively looking for contributors in cost-model research, lint specification, and system architecture.
 
-## License
-
-*(Add initiative-wide license or licensing policy here, if one applies across repos.)*
